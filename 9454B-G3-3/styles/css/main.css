@@ -9,8 +9,9 @@ h1 {
 }
 
 body, html {
-    height: 25%;
+    height: 20%;
     margin: auto;
+    position: top;
 }
 
 .bg {
@@ -20,7 +21,10 @@ body, html {
     background-position: cover;
 }
 
-
+h2{
+    font-family: 'alureFont';
+    
+}
 
 .img1 {
     width: 300px;
