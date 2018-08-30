@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'alureFont';
+    src: url(../font/Allura-Regular.otf);
+}
+
+h1 {
+    font-family: alureFont;
+    
+}
+
+body, html {
+    height: 25%;
+    margin: auto;
+}
+
+.bg {
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;   
+}
+
+img {
+    
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;   
+}
+
+img {
+    
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+
+.img3 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;   
+}
+
+img {
+    
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
