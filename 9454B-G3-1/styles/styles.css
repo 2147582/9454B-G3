@@ -1,0 +1,261 @@
+body {
+  background-color: #DEECF9;
+}
+/*HEADER AREA OSA*/
+header, h1 {
+  text-align: center;
+}
+
+/*NAVIGATION BAR*/
+nav {
+  width:100%;
+  margin:0 auto;
+  list-style:none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #456CD3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    width: 150px;
+    font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: yellow;
+}
+.active {
+    background-color: #FAD11D;
+    text-decoration: underline;
+}
+
+/*TWO COLUMN LAYOUT*/
+.row {
+  padding-top: 60px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*THREE COLUMN LAYOUT ABOUT US*/
+.column1 {
+    float: left;
+    width: 25%;
+}
+.column2 {
+  float: left;
+  width: 60%;
+}
+.column3{
+  float: right;
+  width: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-style: groove;
+  border-color: #1dbab4;
+  border-radius: 7px;
+}
+
+.form {
+  width: 400px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  position: relative;
+}
+
+h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: 'Montserrat',sans-serif;
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat',sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+span {
+  margin: 0 5px 0 15px;
+}
+
+/*FOOTER AREA*/
+.copyright p{
+  font-size:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.text-center {
+    position: static;
+    width: 100%;
+    background-color: #013a39;
+    color: white;
+    text-align: center;
+}
+/*ABOUT NAVBAR*/
+.osa {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #164796;
+}
+.OSA a {
+    display: block;
+    color: #000;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.OSA a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/*Rules and Regulation NAVBAR*/
+.RNR {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #164796;
+}
+.rNr a {
+    display: block;
+    color: #000;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.rNr a:hover {
+    background-color: yellow;
+}
+
+.violation {
+  margin-left: 50px;
+}
+
+.panel {
+  background-color: #09f4f0;
+  border-style: groove;
+  border-color: #2c09ef;
+}
+p {
+  font: 17px;
+}
+.ra9208 {
+  text-align: left;
+}
+.ra8353 {
+  text-align: left;
+}
+.ra7877 {
+  text-align: left;
+}
+.ra9710 {
+  text-align: left;
+}
+
+.cartaWomen {
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.sexual {
+  border-style: groove;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #09f4f0;
+  border-color: #09f4f0;
+}
+.crimeRape {
+
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.personAct {
+  border-style: groove;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #09f4f0;
+  border-color: #09f4f0;
+}
